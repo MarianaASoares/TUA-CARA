@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color:#FFF5C8;
+}
+
+header{
+ 
+
+  position: fixed; /* fixa o header na tela */
+  top: 0;  /* distância do topo */
+  left: 0;   /* alinha à esquerda */
+  background-color:#2B2B2B;
+  width: 100%;
+  padding: 10px 30px;/* espaço entre o conteúdo de um elemento e a sua borda interna. */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;/* Alinha logo e botões na mesma linha */
+  z-index: 1000;
+  
+ 
+
+}
+.logo{
+    
+    width: 100px;
+    height: auto;
+}
+
+.botao{
+    display: flex;
+     gap: 10px;
+}
+.botao button{
+  
+ 
+  
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  color: #FFF5C8;
+  cursor: pointer;
+ 
+  
+
+}
+.sacola{
+     width: 50px;
+    height: 50px;
+    display: flex;
+     gap: 10px;
+
+}
+h1{
+    color: blueviolet;
+}
+
+
+
