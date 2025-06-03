@@ -9,6 +9,13 @@
 body{
     background-color:#FFF5C8;
 }
+h1{
+    color: blueviolet;
+    z-index: 1000;
+    margin-top: 150px;
+    margin-left: 20px;
+
+}
 
 header{
  
@@ -16,7 +23,7 @@ header{
   position: fixed; /* fixa o header na tela */
   top: 0;  /* distância do topo */
   left: 0;   /* alinha à esquerda */
-  background-color:#2B2B2B;
+  background-color:#B68AE3;
   width: 100%;
   padding: 10px 30px;/* espaço entre o conteúdo de um elemento e a sua borda interna. */
   display: flex;
@@ -57,9 +64,16 @@ header{
      gap: 10px;
 
 }
-h1{
-    color: blueviolet;
-}
+ h1{
+ font-size: 80px ;
+ font-weight:5; 
+ }
+ 
+ p{
+ font-family: Arial, Helvetica, sans-serif;
+
+ }
+
 
 
 
