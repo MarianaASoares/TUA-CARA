@@ -1,106 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+
+@font-face {
+        font-family: 'Amoria'; /* Defina um nome para a fonte (ex: 'MyCustomFont') */
+        src: url('./fonts/AMORIA.otf') format('opentype'); /* Caminho do arquivo da fonte */
+        font-weight: normal; /* Opcional: Define o peso da fonte */
+        font-style: normal; /* Opcional: Define o estilo da fonte */
+    }
+    
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
-
-
-
 body{
-    background-color:#FFF5C8;
+    background: #FFFFD0;
+    height: 5880px;
+    flex-shrink: 0;
 }
-h1{
-    color: blueviolet;
-    z-index: 1000;
-    margin-top: 150px;
-    margin-left: 20px;
 
+
+
+nav{
+    
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform:uppercase;
+    height: 150px;
+   
+}
+.menu{
+    
+
+    display: inline-block;/* o elemento <a> é inline por padrão, para alinhar os elemento precisa do display inline-block.*/
+    margin-top: 20px;
+    margin-right:150px;
+    text-decoration: none; 
+    color:#a555ec;
 }
 
 header{
- 
-
-  position: fixed; /* fixa o header na tela */
-  top: 0;  /* distância do topo */
-  left: 0;   /* alinha à esquerda */
-  background-color:#B68AE3;
-  width: 100%;
-  padding: 10px 30px;/* espaço entre o conteúdo de um elemento e a sua borda interna. */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;/* Alinha logo e botões na mesma linha */
-  z-index: 1000;
   
- 
-
-}
-
-
-#caixa-principal{
-    display: flex; /*Deixando os itens um ao lado do outro*/
-    justify-content: space-around; /*deixando os itens espaçados igualmente*/
-    margin-top: 10rem; /*desgrudando do cabeçalho*/
     
-}
-
-.ver-colecao{
-    color:#FFF5C8; /*cor da fonte*/
-    background-color:#8E4AD1 ; /*cor da fonte*/
-    width: 200px;/*tamanho do botão*/
-    height:40px ; /*altura do botão*/
-    padding: 10px; /*espaço interno*/
-    font-size: 15px; /*tamanho da fonte*/
-    border: none; /*remoção de borda*/
-    border-radius: 30px; /*curvatura do botão*/
-    
-}
-
-.imagem-principal{
-    width: 350px; /*tamanho da imagem*/
-    height: auto;
-    border-radius: 20px; /*bordas da imagem*/
-}
-
-.logo{
-    
-    width: 100px;
-    height: auto;
-}
-
-.botao{
     display: flex;
-     gap: 10px;
-}
-.botao button{
-  
- 
-  
-  background-color: transparent;
-  border: none;
-  font-size: 15px;
-  color: #FFF5C8;
-  cursor: pointer;
- 
-  
+    gap: 40px;
 
 }
-.sacola{
-     width: 50px;
-    height: 50px;
-    display: flex;
-     gap: 10px;
+
+
+.img-header{
+
+    margin-top: 0px;
+    margin-left: 100px;
+    width: 350px;
+    height: 440px;
+    border-radius: 100px;
 
 }
- h1{
- font-size: 80px ;
- font-weight:5; 
- }
- 
- p{
- font-family: Arial, Helvetica, sans-serif;
 
- }
-
+h1{
+font-family: 'Amoria', Arial, Helvetica, sans-serif;
+color: #a555ec;
+font-size: 60px;
+font-weight: 400;
+text-transform: uppercase;
+width: 700px;
 
 
+}
+p{
 
+color: #A555EC;
+text-align: justify;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+margin-top: 10px;
+
+}
+
+svg{
+
+
+
+}
