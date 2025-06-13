@@ -34,6 +34,33 @@ header{
  
 
 }
+
+
+#caixa-principal{
+    display: flex; /*Deixando os itens um ao lado do outro*/
+    justify-content: space-around; /*deixando os itens espaçados igualmente*/
+    margin-top: 10rem; /*desgrudando do cabeçalho*/
+    
+}
+
+.ver-colecao{
+    color:#FFF5C8; /*cor da fonte*/
+    background-color:#8E4AD1 ; /*cor da fonte*/
+    width: 200px;/*tamanho do botão*/
+    height:40px ; /*altura do botão*/
+    padding: 10px; /*espaço interno*/
+    font-size: 15px; /*tamanho da fonte*/
+    border: none; /*remoção de borda*/
+    border-radius: 30px; /*curvatura do botão*/
+    
+}
+
+.imagem-principal{
+    width: 350px; /*tamanho da imagem*/
+    height: auto;
+    border-radius: 20px; /*bordas da imagem*/
+}
+
 .logo{
     
     width: 100px;
