@@ -20,8 +20,10 @@
    
 }
 body{
+  
     background: #FFFFD0;
-    height: 5880px;
+    height: 2600px;
+    width: 100vw;
     flex-shrink: 0;
 }
 
@@ -53,6 +55,8 @@ header{
     
     display: flex;
     gap: 40px;
+  
+  
 
 }
 
@@ -92,7 +96,155 @@ margin-top: 10px;
 }
 
 svg{
+display: block;
+ margin-left: 0;
+ width: 100%;
+ height: auto;
+ margin:0;
+ 
+}
 
-
+.conteiner{
+   position: relative;
+  background: #A555EC; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  padding: 60px 20px;
+  margin-top: -20px;
 
 }
+h2{
+    color: #FFFFD0;
+  font-family: 'Amoria', serif;
+  font-size: 60px;
+  font-weight: 400;
+  text-transform: uppercase;
+   margin: -95px 0 0 0 ;
+  
+   
+    
+}
+.imagem-header-conteiner{
+
+    width: 120px;
+   height: auto;
+
+}
+.header-conteiner{
+      
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 40px;
+  width: 100%;
+  text-align: center;
+   
+ 
+}
+
+   .carrossel {
+  position: relative;
+  width: 90%;
+  max-width: 960px;
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.carrossel-imagens {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carrossel-imagens img {
+  width: calc(100% / 3);
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+}
+.carrossel-imagens img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.botoes {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+
+    .botoes button {
+      background: rgba(0, 0, 0, 0.5);
+      border: none;
+      color: white;
+      font-size: 2rem;
+      padding: 0 15px;
+      cursor: pointer;
+    }
+
+    .botoes button:hover {
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    .conteiner-trevo{
+        
+    width: 100%;
+ 
+    justify-content: center; 
+    padding: 20px;
+   
+      
+    }
+     .svg-trevo{
+
+      display: inline-block;
+      margin-left: 0;
+      margin-top:-655px;
+      width: 680px;
+    
+    }
+
+    h3{
+      color: #A555EC;
+      text-align: center;
+      font-family: AMORIA;
+     font-size: 91.456px;
+     font-style: normal;
+     font-weight: 400;
+      line-height: normal;
+     text-transform: uppercase;
+    }
+
+    .sobre-nos p{
+
+      color: #A555EC;
+     text-align: justify;
+     font-family: Poppins;
+     align-items: center;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: normal;
+     text-transform: uppercase;
+     margin-top: 20px;
+     margin-left: 90px;
+     width: 80%;
+    }
+
+    
+    /*finish, thanks GOD!*/
+  
+
+
+
+
