@@ -2,111 +2,115 @@
 
 
 @font-face {
-        font-family: 'Amoria'; /* Defina um nome para a fonte (ex: 'MyCustomFont') */
-        src: url('./fonts/AMORIA.otf') format('opentype'); /* Caminho do arquivo da fonte */
-        font-weight: normal; /* Opcional: Define o peso da fonte */
-        font-style: normal; /* Opcional: Define o estilo da fonte */
-    }
-    
-
-
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
-}
-body{
-  
-    background: #FFFFD0;
-    height: 2600px;
-    width: 100vw;
-    flex-shrink: 0;
+  font-family: 'Amoria';
+  /* Defina um nome para a fonte (ex: 'MyCustomFont') */
+  src: url('./fonts/AMORIA.otf') format('opentype');
+  /* Caminho do arquivo da fonte */
+  font-weight: normal;
+  /* Opcional: Define o peso da fonte */
+  font-style: normal;
+  /* Opcional: Define o estilo da fonte */
 }
 
 
-
-nav{
-    
-    text-align:center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    line-height: normal;
-    text-transform:uppercase;
-    height: 150px;
-   
-}
-.menu{
-    
-
-    display: inline-block;/* o elemento <a> é inline por padrão, para alinhar os elemento precisa do display inline-block.*/
-    margin-top: 20px;
-    margin-right:150px;
-    text-decoration: none; 
-    color:#a555ec;
-}
-
-header{
-  
-    
-    display: flex;
-    gap: 40px;
-  
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
 }
 
+body {
 
-.img-header{
+  background: #FFFFD0;
+  height: 2600px;
+  width: 100vw;
+  flex-shrink: 0;
+}
 
-    margin-top: 0px;
-    margin-left: 100px;
-    width: 350px;
-    height: 440px;
-    border-radius: 100px;
+
+
+nav {
+
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  height: 150px;
 
 }
 
-h1{
-font-family: 'Amoria', Arial, Helvetica, sans-serif;
-color: #a555ec;
-font-size: 60px;
-font-weight: 400;
-text-transform: uppercase;
-width: 700px;
+.menu {
+
+
+  display: inline-block;
+  /* o elemento <a> é inline por padrão, para alinhar os elemento precisa do display inline-block.*/
+  margin-top: 20px;
+  margin-right: 150px;
+  text-decoration: none;
+  color: #a555ec;
+}
+
+header {
+
+
+  display: flex;
+  gap: 40px;
+
 
 
 }
-p{
 
-color: #A555EC;
-text-align: justify;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-text-transform: uppercase;
-margin-top: 10px;
+
+.img-header {
+
+  margin-top: 0px;
+  margin-left: 100px;
+  width: 350px;
+  height: 440px;
+  border-radius: 100px;
 
 }
 
-svg{
-display: block;
- margin-left: 0;
- width: 100%;
- height: auto;
- margin:0;
- 
+h1 {
+  font-family: 'Amoria', Arial, Helvetica, sans-serif;
+  color: #a555ec;
+  font-size: 60px;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 700px;
+
+
 }
 
-.conteiner{
-   position: relative;
-  background: #A555EC; 
+p {
+
+  color: #A555EC;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 10px;
+
+}
+
+svg {
+  display: block;
+  margin-left: 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+
+}
+
+.conteiner {
+  position: relative;
+  background: #A555EC;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,25 +120,28 @@ display: block;
   margin-top: -20px;
 
 }
-h2{
-    color: #FFFFD0;
+
+h2 {
+  color: #FFFFD0;
   font-family: 'Amoria', serif;
   font-size: 60px;
   font-weight: 400;
   text-transform: uppercase;
-   margin: -95px 0 0 0 ;
-  
-   
-    
-}
-.imagem-header-conteiner{
+  margin: -95px 0 0 0;
 
-    width: 120px;
-   height: auto;
+
 
 }
-.header-conteiner{
-      
+
+.imagem-header-conteiner {
+
+  width: 120px;
+  height: auto;
+
+}
+
+.header-conteiner {
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -143,18 +150,18 @@ h2{
   padding-top: 40px;
   width: 100%;
   text-align: center;
-   
- 
+
+
 }
 
-   .carrossel {
+.carrossel {
   position: relative;
   width: 90%;
   max-width: 960px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .carrossel-imagens {
@@ -168,6 +175,7 @@ h2{
   max-height: 300px;
   object-fit: contain;
 }
+
 .carrossel-imagens img:hover {
   transform: scale(1.1);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
@@ -175,76 +183,177 @@ h2{
 }
 
 .botoes {
-      position: absolute;
-      top: 50%;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      transform: translateY(-50%);
-    }
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
 
-    .botoes button {
-      background: rgba(0, 0, 0, 0.5);
-      border: none;
-      color: white;
-      font-size: 2rem;
-      padding: 0 15px;
-      cursor: pointer;
-    }
+.botoes button {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0 15px;
+  cursor: pointer;
+}
 
-    .botoes button:hover {
-      background: rgba(0, 0, 0, 0.7);
-    }
+.botoes button:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
 
-    .conteiner-trevo{
-        
+.conteiner-trevo {
+
+  width: 100%;
+
+  justify-content: center;
+  padding: 20px;
+
+
+}
+
+.svg-trevo {
+
+  display: inline-block;
+  margin-left: 0;
+  margin-top: -655px;
+  width: 680px;
+
+}
+
+h3 {
+  color: #A555EC;
+  text-align: center;
+  font-family: AMORIA;
+  font-size: 91.456px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.sobre-nos p {
+
+  color: #A555EC;
+  text-align: justify;
+  font-family: Poppins;
+  align-items: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 90px;
+  width: 80%;
+}
+
+@media screen and (max-width:900px) {
+  html{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body{
     width: 100%;
- 
-    justify-content: center; 
-    padding: 20px;
-   
-      
-    }
-     .svg-trevo{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
 
-      display: inline-block;
-      margin-left: 0;
-      margin-top:-655px;
-      width: 680px;
-    
-    }
+   nav{
+    max-width: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 16px;
+    height: 100px;
 
-    h3{
-      color: #A555EC;
-      text-align: center;
-      font-family: AMORIA;
-     font-size: 91.456px;
-     font-style: normal;
-     font-weight: 400;
-      line-height: normal;
-     text-transform: uppercase;
-    }
 
-    .sobre-nos p{
+  }
 
-      color: #A555EC;
-     text-align: justify;
-     font-family: Poppins;
-     align-items: center;
-     font-size: 20px;
-     font-style: normal;
-     font-weight: 300;
-     line-height: normal;
-     text-transform: uppercase;
-     margin-top: 20px;
-     margin-left: 90px;
-     width: 80%;
-    }
+  .menu:nth-child(2){
+    display: none;
+  }
 
-    
-    /*finish, thanks GOD!*/
+  .menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
   
+ 
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  max-width: 100%;
 
+}
 
+.img{
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
 
+.img-header {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-texto{
+  max-width: 90%;
+  text-align: center;
+}
+
+h1{
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+svg{
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 3rem;
+ }
+
+ .sobre-nos p {
+  margin: 0 auto;
+  width: 90%;
+  text-align: justify;
+ }
+
+ 
+ 
+
+}
+
+/*finish, thanks GOD!*/
